@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>PUZZLE INGLÊS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Icon da barra de separadores-->
+    <link rel="icon" href="Images/favicon.ico" type="icon">
+
+    <!--Bibliotecas-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--Invoca a estilização em css-->
+    <link rel="stylesheet" href="Menu.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            <img src="Images/puzzle.png" width="100" height="111" alt="Imagem não encontrada!">PUZZLE INGLÊS <img src="Images/puzzle.png"
+                width="100" height="111" alt="Imagem não encontrada!">
+        </h1>
+        <br>
+        <center>
+            <!--Botao para começar a jogar -->
+            <a id="btn" href="PuzzleIngles.html"><button id="botão" type="button" class="btn btn-lg active"> JOGAR</button></a>
+            <p></p>
+            <br>
+            <button id="botão" type="button" class="btn btn-lg active" data-toggle="modal" data-target="#myModal">COMO JOGAR</button>
+        </center>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">COMO JOGAR:</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div>
+                                <p class="padding">Com a ajuda do clique esquerdo do rato arraste a peça para a resposta correta, fazendo corresponder
+                                    a imagem ao seu nome.</p>
+                            </div>
+                            <div>
+                                <img class="padding" src="Images/image.gif" alt="Imagem não encontrada!">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

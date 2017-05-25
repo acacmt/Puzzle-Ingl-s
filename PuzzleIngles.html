@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PUZZLE INGLÊS</title>
+    <!--Icon da barra de separadores-->
+    <link rel="icon" href="Images/favicon.ico" type="icon">
+    <!--Chama outras paginas-->
+    <script src="Script.js"></script>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <!--Bibliotecas-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="sweetalert-master/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="sweetalert-master/sweetalert.css">
+</head>
+
+<body>
+    <div>
+        <p></p>
+        <span class="glyphicon glyphicon-question-sign" style="font-size:50px; color: navajowhite; position: absolute; right: 36px"
+            data-toggle="modal" data-target="#myModal"></span>
+        <a href="Menu.html">
+            <span class="glyphicon glyphicon-home" style="font-size:50px; color: navajowhite; position: absolute; right: 96px"></span>
+        </a>
+    </div>
+    <div>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">AJUDA:</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Com a ajuda do clique esquerdo do rato arraste a peça para a resposta correta, fazendo corresponder
+                            a imagem ao seu nome.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <center>
+        <canvas id="myCanvas" width="700" height="550">
+            Your browser does not support HTML5 Canvas.
+        </canvas>
+    </center>
+</body>
+
+</html>

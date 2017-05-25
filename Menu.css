@@ -1,0 +1,42 @@
+/*Estilização da Página*/
+body {
+    background-image: url("Images/texture-wallpaper-background-wood-board.jpg");/*Imagem de fundo*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    /*Permite que a imagem se auto ajuste ao tipo de dimensões do ecrã do uitlizador*/
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+/*Estilização do Título da Página*/
+h1{
+    color: navajowhite ;
+    text-align: center;
+    font-family: "Impact", Charcoal, sans-serif;
+    font-style: italic;
+    font-size: 100px;
+}
+
+/*Estilização do Botão*/
+#botão{
+    width: 525px;
+    height: 70px;
+    text-align: center;
+	color: navajowhite;
+    background-color: saddlebrown;
+}
+
+p.padding {
+    padding-left: 0.5cm;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+img.padding {
+    padding-left: 80%;
+}
